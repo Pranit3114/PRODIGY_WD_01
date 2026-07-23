@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Interactive navigation menu with scroll effects and hover animations"
+    />
+    <title>Responsive Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <a href="#" class="nav-logo">
+          <span class="logo-icon">◆</span>
+          <span class="logo-text">Nexora</span>
+        </a>
+
+        <ul class="nav-menu" id="nav-menu">
+          <li class="nav-item">
+            <a href="#home" class="nav-link active" data-section="home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link" data-section="about">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#services" class="nav-link" data-section="services"
+              >Services</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#portfolio" class="nav-link" data-section="portfolio"
+              >Portfolio</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link" data-section="contact"
+              >Contact</a
+            >
+          </li>
+        </ul>
+
+        <button
+          class="nav-toggle"
+          id="nav-toggle"
+          aria-label="Toggle navigation"
+        >
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="section hero-section" id="home">
+      <div class="hero-content">
+        <p class="hero-subtitle">Welcome to the Future</p>
+        <h1 class="hero-title">
+          Interactive <span class="gradient-text">Navigation</span> Experience
+        </h1>
+        <p class="hero-description">
+          Scroll down to see the navbar transform with a glassmorphism effect.
+          Hover over menu items to experience fluid micro-animations.
+        </p>
+        <a href="#about" class="hero-cta"
+          >Explore More <span class="cta-arrow">→</span></a
+        >
+      </div>
+      <div class="hero-orbs">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section content-section" id="about">
+      <div class="section-inner">
+        <p class="section-label">01 — About</p>
+        <h2 class="section-title">
+          Crafted with <span class="gradient-text">Precision</span>
+        </h2>
+        <p class="section-text">
+          This navigation menu features a fixed position layout that responds to
+          scroll events by transitioning from a transparent overlay to a sleek
+          glassmorphism panel. Each menu item includes hover animations with
+          glowing underlines and color shifts.
+        </p>
+        <div class="feature-grid">
+          <div class="feature-card">
+            <div class="feature-icon">✦</div>
+            <h3>Scroll Responsive</h3>
+            <p>
+              Background and shadow change dynamically as you scroll down the
+              page.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">◈</div>
+            <h3>Hover Effects</h3>
+            <p>
+              Smooth color transitions and animated underlines on every menu
+              item.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">⬡</div>
+            <h3>Fixed Position</h3>
+            <p>
+              Always visible at the top of the viewport for seamless navigation.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section content-section alt-bg" id="services">
+      <div class="section-inner">
+        <p class="section-label">02 — Services</p>
+        <h2 class="section-title">
+          What We <span class="gradient-text">Offer</span>
+        </h2>
+        <p class="section-text">
+          We deliver premium digital experiences through thoughtful design and
+          cutting-edge development practices.
+        </p>
+        <div class="feature-grid">
+          <div class="feature-card">
+            <div class="feature-icon">⊹</div>
+            <h3>UI/UX Design</h3>
+            <p>
+              Pixel-perfect interfaces that captivate users and elevate brands.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">◇</div>
+            <h3>Web Development</h3>
+            <p>
+              Performant, accessible websites built with modern technologies.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">△</div>
+            <h3>Brand Strategy</h3>
+            <p>Cohesive brand identities that resonate with your audience.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="section content-section" id="portfolio">
+      <div class="section-inner">
+        <p class="section-label">03 — Portfolio</p>
+        <h2 class="section-title">
+          Selected <span class="gradient-text">Works</span>
+        </h2>
+        <p class="section-text">
+          A curated showcase of projects that push creative boundaries and
+          deliver measurable results.
+        </p>
+        <div class="portfolio-grid">
+          <div class="portfolio-card">
+            <div class="portfolio-overlay">
+              <h3>Project Aurora</h3>
+              <p>Web Design · Development</p>
+            </div>
+          </div>
+          <div class="portfolio-card">
+            <div class="portfolio-overlay">
+              <h3>Project Zenith</h3>
+              <p>Branding · UI/UX</p>
+            </div>
+          </div>
+          <div class="portfolio-card">
+            <div class="portfolio-overlay">
+              <h3>Project Cascade</h3>
+              <p>Mobile App · Strategy</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section content-section alt-bg" id="contact">
+      <div class="section-inner">
+        <p class="section-label">04 — Contact</p>
+        <h2 class="section-title">
+          Let's <span class="gradient-text">Connect</span>
+        </h2>
+        <p class="section-text">
+          Ready to bring your vision to life? Reach out and let's create
+          something extraordinary together.
+        </p>
+        <a href="https://github.com/Pranit3114" class="hero-cta"
+          >Get in Touch <span class="cta-arrow">→</span></a
+        >
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>© 2026 Nexora. Designed by Pranit Pendhari.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
