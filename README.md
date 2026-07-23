@@ -7,5 +7,5 @@
 *Active Section Tracking* — the current section's link highlights automatically as you scroll.  
 *Smooth Scrolling* — clicking any nav link scrolls smoothly to the target section.  
 *Responsive Mobile Menu* — hamburger toggle with animated open/close on smaller screens.  
-*Section Reveal Animations8 — cards and content fade in as they enter the viewport using Intersection Observer.  
+*Section Reveal Animations* — cards and content fade in as they enter the viewport using Intersection Observer.  
 *Floating Gradient Orbs* — animated background orbs in the hero for visual depth.  
